@@ -109,7 +109,7 @@ nvim_lsp.gopls.setup{
   },
 }
 
-nvim_lsp.clang.setup{
+nvim_lsp.clangd.setup{
   on_attach = on_attach,
   cmd = {'clangd'},
   filetypes = {"c", "cpp", "objc", "objcpp", "cuda", "proto"},
