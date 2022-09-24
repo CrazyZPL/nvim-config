@@ -1,8 +1,6 @@
 #!/bin/bash
 
 echo "-----------------Start init this server----------------"
-git clone https://github.com/CrazyZPL/nvim-config.git
-mv nvim-config ~/ && mv nvim-config .config
 
 if node -v; then
   echo "node is found"
