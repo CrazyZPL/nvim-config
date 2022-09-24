@@ -13,8 +13,8 @@ local groups = cb.groups
 local styles = cb.styles
 
 Color.new('black', '#000000')
-Group.new('CursorLine', colors.white, colors.pink, styles.NONE, colors.black)
-Group.new('CursorLineNr', colors.yellow, colors.black, styles.NONE, colors.base1)
+Group.new('CursorLine', colors.white, colors.pink, styles.NONE, colors.base01)
+Group.new('CursorLineNr', colors.yellow, colors.black, styles.NONE, colors.base01)
 Group.new('Visual', colors.none, colors.base03, styles.reverse)
 
 local cError = groups.Error.fg
